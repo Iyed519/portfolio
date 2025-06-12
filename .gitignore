@@ -1,44 +1,65 @@
-# Angular build output
+# -------------------------------
+# Build outputs (DO NOT TRACK)
+# -------------------------------
 /dist
-/tmp
 /out-tsc
+/tmp
 /.angular/cache
+/coverage
 
-# Node dependencies
+# -------------------------------
+# Node.js dependencies
+# -------------------------------
 /node_modules
 
-# Logs
+# -------------------------------
+# Logs and debug files
+# -------------------------------
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# IDEs and editors
-.idea/
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-*.sublime-project
-
-# VSCode settings (keep recommended settings files)
+# -------------------------------
+# Editor & IDE configs
+# -------------------------------
+# VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# Local history & config
+# JetBrains (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# -------------------------------
+# Temporary / misc
+# -------------------------------
 .history/
 .sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-/testem.log
+connect.lock
+libpeerconnection.log
+testem.log
 
-# Types
+# -------------------------------
+# Types and typings
+# -------------------------------
 /typings/
 
-# System files
+# -------------------------------
+# OS-specific files
+# -------------------------------
 .DS_Store
 Thumbs.db
