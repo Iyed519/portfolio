@@ -351,7 +351,7 @@ export class ProjectsComponent {
       tech: ["Angular", "Spring Boot", "AI Chatbot APIs"],
       category: "Web Platform",
       status: "In Development",
-      image: "/assets/images/COCONSULT.png",
+      image: "assets/images/COCONSULT.png",
       description: "A web platform that automates ISO 9001 certification processes using AI-driven agents and chatbot workflows. Designed to simplify bureaucratic procedures and accelerate compliance for businesses, featuring intuitive interfaces and seamless integration with certification standards."
     },
     {
@@ -361,7 +361,7 @@ export class ProjectsComponent {
       tech: ["C", "Glade"],
       category: "Desktop Application",
       status: "In Development",
-      image: "/assets/images/BLOODCARE.jpg",
+      image: "assets/images/BLOODCARE.jpg",
       description: "A full-stack application to manage blood donors, track stock inventory, and facilitate real-time hospital coordination for emergencies. Includes features like donor registration, blood stock monitoring, and emergency request management with secure APIs."
     }
   ];
